@@ -1,7 +1,7 @@
 # PgyChecker
 蒲公英App分发平台检测更新和下载最新apk助手,按照libray导入到项目中即可
 # 配置
-项目实例：https://www.pgyer.com/iAMAS
+项目实例：https://www.pgyer.com/aAMAS
 
 用户可以去[蒲公英官网](https://www.pgyer.com/doc/view/api#paramInfo)查看自己的_api_key
 1.gradle.properties配置对应需要的参数
