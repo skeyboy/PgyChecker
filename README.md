@@ -36,3 +36,25 @@
             android:name="pgyer_buildPassword"
             android:value="${pgyer_buildPassword}" />
 ```
+
+4.调用
+
+```
+PgyerCheckper pgyerCheckper = new PgyerCheckper(this);
+        pgyerCheckper.check(new PgyerShorCutImp() {
+            @Override
+            public void onCheckStart() {
+
+            }
+
+            @Override
+            public void onCheckFinished() {
+
+            }
+
+            @Override
+            public void onCheckFailure(String msg) {
+
+            }
+        });
+```
