@@ -59,19 +59,14 @@ PgyerCheckper pgyerCheckper = new PgyerCheckper(this);
         });
 ```
 #
-#一键集成
-```
+# 一键集成
+
 To get a Git project into your build:
 
-Step 1. Add the JitPack repository to your build file
+# Step 1. Add the JitPack repository to your build file gradle maven sbt leiningen
 
-gradle
-maven
-sbt
-leiningen
+```
 Add it in your root build.gradle at the end of repositories:
-
-
 allprojects {
 		repositories {
 			...
@@ -83,9 +78,6 @@ allprojects {
 ```
 
 # Step 2. Add the dependency
-
-
-
 ```
 dependencies {
 	        implementation 'com.github.skeyboy:PgyChecker:v0.0.1'
